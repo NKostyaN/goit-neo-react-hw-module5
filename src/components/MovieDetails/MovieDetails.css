@@ -1,0 +1,30 @@
+.movie-detail {
+  display: flex;
+  height: fit-content;
+  border: none;
+  color: #fff;
+  background-color: rgba(1, 180, 228, 0.5);
+}
+
+.movie-detail-info {
+  padding: 8px;
+}
+
+.movie-detail-info p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-poster {
+  height: 100%;
+  object-fit: contain;
+}
+
+.details-placeholder {
+  width: 342px;
+  height: 513px;
+  border: 1px solid #90cea1;
+  border-radius: 0;
+}

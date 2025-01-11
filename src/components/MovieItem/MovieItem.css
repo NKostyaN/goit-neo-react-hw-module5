@@ -1,0 +1,47 @@
+.movie-item {
+  display: flex;
+  width: 400px;
+  height: fit-content;
+  transition: scale 200ms;
+  border: none;
+  color: #fff;
+  background-color: rgba(1, 180, 228, 0.5);
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 8px;
+}
+
+.movie-info p {
+  width: 284px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-original {
+  white-space: nowrap;
+  font-size: small;
+}
+
+.movie-item:hover {
+  cursor: pointer;
+  background-color: #01b4e4;
+  box-shadow: 0 4px 10px 0 #000000;
+}
+
+.item-placeholder {
+  width: 92px;
+  height: 132px;
+  border: 1px solid #90cea1;
+  border-radius: 0;
+}
+
+.movie-item hr{
+  margin: 0;
+}

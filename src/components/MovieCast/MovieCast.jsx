@@ -25,8 +25,8 @@ const MovieCast = () => {
         setIsLoading(false);
       }
     };
-    result.length === 0 && fetchCast();
-  }, []);
+    movieId && fetchCast();
+  }, [movieId]);
 
   return (
     <div>

@@ -9,7 +9,7 @@ const MovieDetails = ({ item }) => {
   return (
     <>
       <h1>{`${item.title} (${item.release_date.slice(0, 4)})`}</h1>
-      <Link to={`/movies/${item.id}`} state={location} className="movie-detail">
+      <div className="movie-detail">
         {item.poster_path ? (
           <img
             className="movie-poster"
@@ -33,7 +33,7 @@ const MovieDetails = ({ item }) => {
           <p>{ganres}</p>
           <hr />
         </div>
-      </Link>
+      </div>
     </>
   );
 };
